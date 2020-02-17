@@ -61,7 +61,21 @@ GET user:id:email, подставив найденный в предыдущем
 -- 3. Организуйте хранение категорий и товарных позиций учебной базы данных
 -- shop в СУБД MongoDB.
 
-
+{
+	"catalog": "Процессоры",
+	"products":[
+		{
+			"name": "Intel Core i3-8100",
+			"price": 7890.0,
+			"tags": ["Intel", "Core", "i3"]
+		},
+		{
+			"name": "Intel Core i5-7400",
+			"price": 12700.0,
+			"tags": ["Intel", "Core", "i5"]
+		}
+	]
+}
 
 
 
